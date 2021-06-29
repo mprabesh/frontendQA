@@ -16,7 +16,7 @@ function UserAccount() {
     const ID = localStorage.getItem("UID");
     const value = { about: data, UID: ID }; //localStorage bata UID lyaeraw halnu parxa
     axios
-      .post(`http://localhost:1234/register/updateAbout`, { value })
+      .post(`/register/updateAbout`, { value })
       .then((res) => {
         console.log(res);
       })
@@ -29,7 +29,7 @@ function UserAccount() {
     e.preventDefault();
     const value = credentials;
     axios
-      .post(`http://localhost:1234/authenticate/changePassword`, { value })
+      .post(`/authenticate/changePassword`, { value })
       .then((res) => {
         console.log(res);
       })
