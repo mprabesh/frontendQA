@@ -12,7 +12,7 @@ function Usertable() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:1234/get/allUser`)
+      .get(`/get/allUser`)
       .then((res) => {
         const a = res.data;
         console.log("resolved successfully");
