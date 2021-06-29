@@ -15,7 +15,7 @@ function BaseContainer() {
   const [objectValue, setobjectValue] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:1234/question/getall`).then((res) => {
+    axios.get(`/question/getall`).then((res) => {
       setobjectValue(res.data);
     });
   });
