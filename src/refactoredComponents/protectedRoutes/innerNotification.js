@@ -11,7 +11,7 @@ function Notification(apple) {
   const a = localStorage.getItem("Name");
   useEffect(() => {
     axios
-      .get(`http://localhost:1234/notification/getCount/${a}`)
+      .get(`/notification/getCount/${a}`)
       .then((res) => {
         setMarkedNotification(res.data.unmarked);
       })
@@ -27,7 +27,7 @@ function Notification(apple) {
   });
   const handleClick = () => {
     axios
-      .post(`http://localhost:1234/notification/markseen`, { ID })
+      .post(`/notification/markseen`, { ID })
       .then((res) => {
         console.log(res);
         setMarked(true);
