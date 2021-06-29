@@ -10,7 +10,7 @@ function Notification() {
   const d = localStorage.getItem("Name");
   useEffect(() => {
     axios
-      .get(`http://localhost:1234/notification/get/${d}`)
+      .get(`/notification/get/${d}`)
       .then((res) => {
         setNdata(res.data);
       })
