@@ -22,7 +22,7 @@ function Profile() {
   const [about1, setAbout] = useState({});
   useEffect(() => {
     axios
-      .get(`http://localhost:1234/question/getSpecific/${d}`)
+      .get(`/question/getSpecific/${d}`)
       .then((res) => {
         setobjectValue(res.data);
       })
@@ -30,7 +30,7 @@ function Profile() {
         console.log(err);
       });
     axios
-      .get(`http://localhost:1234/get/count/${d}`)
+      .get(`/get/count/${d}`)
       .then((res) => {
         setCount(res.data);
       })
@@ -40,7 +40,7 @@ function Profile() {
   });
   useEffect(() => {
     axios
-      .get(`http://localhost:1234/get/aboutinfo/${e}`)
+      .get(`/get/aboutinfo/${e}`)
       .then((res) => {
         setAbout(res.data);
         console.log(res);
