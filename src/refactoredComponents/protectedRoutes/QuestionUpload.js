@@ -19,7 +19,7 @@ function POstCard() {
   const handleClick = (event) => {
     event.preventDefault();
     axios
-      .post(`http://localhost:1234/question/add`, { values })
+      .post(`/question/add`, { values })
       .then((res) => {
         console.log(res);
       })
