@@ -16,7 +16,7 @@ function LoginForm() {
     // console.log(values);
     e.preventDefault();
     axios
-      .post(`http://localhost:1234/authenticate`, { values })
+      .post(`/authenticate`, { values })
       .then((res) => {
         console.log(res.data);
         localStorage.setItem("Name", res.data.Name);
