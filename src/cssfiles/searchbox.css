@@ -1,0 +1,35 @@
+.header_input{
+    display:flex;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.searchIcon{
+    border-right: 1px,solid;
+}
+
+.SearchInput{
+    margin-right: 15px;
+    
+}
+
+
+.PersonInfo{
+    cursor: pointer;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    margin-right: 15px;
+}
+.PersonInfo>label{
+    cursor: pointer;
+
+    margin-left: 5px;
+}
+.PersonInfo:hover{
+    background-color: azure;
+    border-radius: 20px;
+}

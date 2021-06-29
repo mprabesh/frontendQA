@@ -1,0 +1,79 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    background-color:white;
+    box-shadow: 5px 0px 7px -4px rgba(0,0, 0, 0.75);
+
+}
+.body_section{
+    display: flex;
+    align-content: center;
+    width: 250px;
+    padding-bottom: 100px;
+    padding-right: 25px;
+}
+.inner_body_section{
+    margin-left: 100px;
+    margin-top: 150px;
+    padding-bottom: 150px;
+    width:150px;
+}
+
+
+
+.header_logo{
+    height: 30px;
+    margin-left: 20px;
+}
+
+
+.header_right{
+    display: flex;
+    }
+.header_right_inner{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.LogIn_logo{
+    padding-right: 5px;
+}
+
+.Log_In_label{
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.IconComponents1:hover{
+    background-color: beige;
+    border-radius: 999px;
+}
+.IconComponents2:hover{
+    background-color: beige;
+    border-radius: 999px;
+}
+.IconComponents3:hover{
+    background-color: beige;
+    border-radius: 999px;
+}
+.IconComponents2{
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.IconComponents3{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.IconComponents1{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+

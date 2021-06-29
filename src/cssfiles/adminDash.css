@@ -1,0 +1,35 @@
+.AdminTable{
+    font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: 50px;
+}
+.AdminTable td,.AdminTable th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  
+.AdminTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:azure;
+    color: black;
+  }
+
+.outerTable{
+    margin-top: 20px;
+    display: inline-block;
+    padding-top: 15px;
+    align-content: center;
+    padding-right: 25px;
+
+}
+.inputBox{
+  margin-left: 50px;
+}
+.SearchNull{
+  margin-left: 50px;
+}

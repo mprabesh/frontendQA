@@ -1,0 +1,48 @@
+.Post_section{
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px -4px rgba(0,0.75, 0, 0.75);
+}
+.Post_section_inner{
+    padding-left: 15px;
+}
+.Post_section_Top{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Post_section_Top1{
+    padding-top: 10px;
+    display: flex;
+}
+.option{
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  .option:hover{
+      background-color: azure;
+      border-radius: 999px;
+  }
+.Post_section_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.Post_section_option{
+display: flex;}
+.Post_section_option1{
+    display: flex;}
+
+.Pop-over{
+    display: flex;
+    align-items: center;
+}
+.Pop-over>button{
+    border: none;
+    background-color: transparent;
+}

@@ -1,0 +1,28 @@
+.List-Group{
+    background-color:azure;
+    /* border: 1px solid; */
+    box-shadow: 5px 5px 7px -4px rgba(0,0.75, 0, 0.75);
+    border-radius: 8px;
+}
+
+.List-Group>ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.List-Group>ul>li{
+    font-weight: 20000;
+    border-bottom: 1px solid lightgray; 
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.insidelist{
+    margin-right: 8px;
+    align-content: center;
+    justify-content: center;
+    padding-left: 8vh;
+    cursor: pointer;
+    
+}
+.insidelist:hover{
+background-color: aqua;
+}

@@ -1,0 +1,51 @@
+.Notify_component1{
+    border-radius: 15px;
+}
+.Notify_inner{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+.Notify_inner1{
+    align-content: space-between;
+    display: flex;    
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+.Content{
+    display: flex;
+}
+.Content>p{
+    margin-left: auto;
+}
+.Notify_inner>h5{
+    font-size: 15px;
+}
+.viewIcon{
+    padding-left: 120px;
+}
+.Notify_component{
+    border-radius: 15px;
+    box-shadow: 5px 5px 7px -4px rgba(0,0.75, 0, 0.75);
+}
+
+.list-ko{
+    list-style: none;
+}
+
+.viewIcon{
+margin-left: auto;
+}
+.outer-notify{
+    display: flex;
+    align-items: center;
+}
+.innerViewIcon{
+
+    border-radius: 25px;
+    cursor: pointer;
+}

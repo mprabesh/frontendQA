@@ -1,0 +1,27 @@
+.work{
+    display: flex;
+    margin-left: 10px;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+.Profile_component{
+    border-radius: 15px;
+    box-shadow: 5px 5px 7px -4px rgba(0,0.75, 0, 0.75);
+}
+.work>h6{
+margin-left: 15px;
+font-size: 12px;
+}
+.Profile_inner{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+.Profile_inner>h5{
+    font-size: 15px;
+}
+
+.list-ko{
+    list-style: none;
+}
