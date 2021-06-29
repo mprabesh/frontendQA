@@ -19,7 +19,7 @@ function HeaderRight() {
   const a = localStorage.getItem("Name");
   useEffect(() => {
     axios
-      .get(`http://localhost:1234/notification/getCount/${a}`)
+      .get(`/notification/getCount/${a}`)
       .then((res) => {
         setnotifyNo(res.data.nCount);
       })
