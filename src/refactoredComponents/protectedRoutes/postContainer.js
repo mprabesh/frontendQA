@@ -23,7 +23,7 @@ function Handmade(apple) {
   };
   const addView = () => {
     axios
-      .post(`http://localhost:1234/get/viewadd`, { value })
+      .post(`/get/viewadd`, { value })
       .then((res) => {
         console.log(res);
       })
@@ -34,7 +34,7 @@ function Handmade(apple) {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:1234/answer/getSpecific/${apple.value._id}`)
+      .get(`/answer/getSpecific/${apple.value._id}`)
       .then((res) => {
         setAnswerValues(res.data);
       })
@@ -42,7 +42,7 @@ function Handmade(apple) {
         console.log(err);
       });
     axios
-      .get(`http://localhost:1234/get/viewarray/${apple.value._id}`)
+      .get(`/get/viewarray/${apple.value._id}`)
       .then((res) => {
         console.log(res.data);
         setViewData(res.data);
