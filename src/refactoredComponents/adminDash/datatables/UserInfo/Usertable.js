@@ -7,7 +7,7 @@ function Usertable({ data }) {
     // const d = a.Email;
 
     axios
-      .post(`http://localhost:1234/register/removeUser`, { a })
+      .post(`/register/removeUser`, { a })
       .then((res) => {
         console.log("Hello world");
       })
