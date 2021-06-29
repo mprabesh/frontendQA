@@ -16,7 +16,7 @@ function Forms() {
   const handleClick = (e) => {
     e.preventDefault();
     axios
-      .post(`http://localhost:1234/register/newRequest`, { userInfo })
+      .post(`/register/newRequest`, { userInfo })
       .then((res) => {
         console.log(res.config.data);
         console.log(userInfo);
