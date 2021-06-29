@@ -18,7 +18,7 @@ function AnswerPosted(apple) {
     e.preventDefault();
     const id = apple.value._id;
     axios
-      .post(`http://localhost:1234/answer/delete`, { id })
+      .post(`/answer/delete`, { id })
       .then((res) => {
         console.log(res);
       })
